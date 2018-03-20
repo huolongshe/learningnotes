@@ -24,6 +24,7 @@
 
     修改/etc/resolv.conf配置文件，修改后内容如下（举例）:
     
+        文件/etc/resolv.conf：
         nameserver 127.0.1.1
         nameserver 202.101.46.151
 

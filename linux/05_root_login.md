@@ -11,8 +11,9 @@
 
 3. 修改lightdm配置参数
 
-    修改/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf配置文件，修改后内容如下：：
-
+    修改/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf配置文件，修改后内容如下：
+    
+        文件/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf：
         [Seat:*]
         greeter-session=unity-greeter 
         #added by myself

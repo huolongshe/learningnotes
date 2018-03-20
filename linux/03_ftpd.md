@@ -6,6 +6,7 @@
 
 2. 修改/etc/vsftpd.conf文件，各配置项按如下进行设置：
 
+        文件/etc/vsftpd.conf：
         listen=NO
         local_enable=YES
         write_enable=YES
