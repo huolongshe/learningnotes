@@ -15,6 +15,7 @@
         文件/etc/profile：
         sslocal -s <SERVER_ADDR> -p <SERVER_PORT> -k <PASSWORD> -m <ENCRYPTION> &
 
+---
 
 ### 配置Maven使用Sock5代理
 	
@@ -29,6 +30,7 @@
         文件/etc/profile文件：
         export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=1080"
 
+---
 
 ### 配置git使用socks5代理
 
@@ -70,6 +72,7 @@
 
             # gitproxy status
 
+---
 
 ### 配置docker使用socks5代理
 

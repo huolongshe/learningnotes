@@ -1,4 +1,4 @@
-## 安装Google输入法
+## 安装中文输入法
 
 ### Googles输入法
 
@@ -15,8 +15,9 @@
         # apt remove fcitx-module-kimpanel
         # apt autoremove
 
+---
 
-### 安装搜狗输入法
+### 搜狗输入法
 >在使用Xmanager远程登录Linux图形界面时，搜狗输入法会出现异常，这种情况不建议安装搜狗输入法。
 
 1. 添加fcitx键盘输入法系统
