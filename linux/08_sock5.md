@@ -6,12 +6,10 @@
 
         # pip install shadowsocks
 
-2. 运行（）
+2. 运行
 	
         # sslocal -s <SERVER_ADDR> -p <SERVER_PORT> -k <PASSWORD> -m <ENCRYPTION> &
     
-    > SERVER_ADDR，SERVER_PORT，PASSWORD，ENCRYPTION请自行购买
-        
      可在/etc/profile文件中追加一行，以使系统reboot时启动Sock5服务：
       
         文件/etc/profile：
@@ -24,7 +22,9 @@
 
         # mvn install  -DsocksProxyHost=127.0.0.1 -DsocksProxyPort=1080
 
-- 或者，在/etc/profile文件中追加一行，然后reboot：
+- 或者，通过将参数配置为环境变量
+  
+  在/etc/profile文件中追加一行，然后reboot：
 
         文件/etc/profile文件：
         export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=1080"
