@@ -36,7 +36,9 @@
         # git clone http://gerrit.onap.org/r/portal/sdk -b amsterdam
 
 5. 编译
-
+    
+    >在编译ONAP项目之前，先下载“ https://jira.onap.org/secure/attachment/10829/settings.xml ”文件，拷贝至当前用户本地maven仓库/root/.m2/。
+    
         # cd sdk/ecomp-sdk
         # mvn install
 
